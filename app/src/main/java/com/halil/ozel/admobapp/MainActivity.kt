@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
         MobileAds.initialize(this) {}
         val adRequest = AdRequest.Builder().build()
-        binding.bannerID.loadAd(adRequest) // Banner load
+        binding.avBannerId.loadAd(adRequest) // Banner load
 
         binding.btnRewardedAd.setOnClickListener {
             RewardedAd.load(this,
